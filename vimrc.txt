@@ -1,0 +1,8 @@
+# line numbering makes things nicer
+set number
+
+# Tab equals four spaces, smarttab indents to the next tab position regardless of current position
+set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
+
+# Automatically autocomplete html tags when html  files have been opened
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
